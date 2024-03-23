@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Mawa Signs &amp; Print">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <!--            <xpath expr="." postion="inside">-->
+            <!--                    <title>MAWA</title>-->
+            <!--                    <meta charset="UTF-8"/>-->
+            <!--                    <meta name="viewport" content="width=device-width, initial-scale=1"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    &lt;!&ndash;                    <link rel="icon" type="image/png" href="images/icons/favicon.png"/>&ndash;&gt;-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src//mawa_website/static/src/vendor/bootstrap/css/bootstrap.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/fonts/font-awesome-4.7.0/css/font-awesome.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/fonts/iconic/css/material-design-iconic-font.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/fonts/linearicons-v1.0.0/icon-font.min.css"/>-->
+            <!--                    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"-->
+            <!--                          rel="stylesheet"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css" href="/mawa_website/static/src/vendor/animate/animate.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/css-hamburgers/hamburgers.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/animsition/css/animsition.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/select2/select2.min.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/daterangepicker/daterangepicker.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css" href="/mawa_website/static/src/vendor/slick/slick.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/MagnificPopup/magnific-popup.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css"-->
+            <!--                          href="/mawa_website/static/src/vendor/perfect-scrollbar/perfect-scrollbar.css"/>-->
+            <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+            <!--                    <link rel="stylesheet" type="text/css" href="/mawa_website/static/src/css/util.css"/>-->
+            <!--                    <link rel="stylesheet" type="text/css" href="/mawa_website/static/src/css/main.css"/>-->
+
+            <!--                </xpath>-->
+            <t t-call="website.layout">
+                <!--                <t t-set="pageName" t-value="homepage"/>-->
+
+                <section>
+                    <div>
+                        <image src="/mawa_website/static/src/images/1600-×800-Banner-Design.png" style="width:100%"/>
+                    </div>
+                </section>
+
+                <!-- Product -->
+                <section class="bg0 p-t-23 p-b-140" id="cards-section">
+                    <div class="container">
+                        <div class="p-b-10">
+                            <h3 class="ltext-103 cl5">
+                                Product Overview
+                            </h3>
+                        </div>
+
+                        <div class="flex-w flex-sb-m p-b-52">
+                            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter="*" style="font-size: 20px; color: black;">
+                                    <strong>All</strong>
+                                </button>
+
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter=".shop-signs" style="font-size: 20px;">
+                                    <strong>Shop Signs</strong>
+                                </button>
+
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter=".banners" style="font-size: 20px;">
+                                    <strong>Banners</strong>
+                                </button>
+
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter=".vehicle" style="font-size: 20px;">
+                                    <strong>Vehicle Graphics</strong>
+                                </button>
+
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter=".windows" style="font-size: 20px;">
+                                    <strong>Window Graphics</strong>
+                                </button>
+
+                                <button class="stext-106  hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1"
+                                        data-filter=".flayer" style="font-size: 20px;">
+                                    <strong>Leaflet &amp; Flyer</strong>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="row isotope-grid">
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men shop-signs">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Shop Sign.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Shop Signs
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item banners">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Banner.png"
+                                             alt="IMG-PRODUCT"/>
+
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Banners
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item vehicle">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Vehical-Graphic.jpg"
+                                             alt="IMG-PRODUCT"/>
+
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Vehicle Graphics
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item windows">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Window-Graphics.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Window Graphics
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item flayer">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/FLyer-And-Leaflet.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Flyer &amp; Leaflet
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Number-Plates.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Number Plates
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/T-Shirt.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    T-Shirts
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Stickers.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Stickers
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Menu.jpg" alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Menu Cards
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Graphic-Designing-Services.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Graphic Designing
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Social-Media-Marketing.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Social Media Marketing
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Business-cArd.jpg"
+                                             alt="IMG-PRODUCT"/>
+
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Business Cards
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Cap.jpg" alt="IMG-PRODUCT"/>
+
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Caps
+                                                </a>
+                                            </strong>
+
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item banners">
+                                <!-- Block2 -->
+                                <div class="block2">
+                                    <div class="block2-pic hov-img0">
+                                        <img src="/mawa_website/static/src/images/Roll-UP-Banner.jpg"
+                                             alt="IMG-PRODUCT"/>
+                                    </div>
+
+                                    <div class="block2-txt flex-w flex-t p-t-14">
+                                        <div class="block2-txt-child1 flex-col-l"
+                                             style="display: flex; justify-content: center; align-items: center;">
+                                            <strong>
+                                                <a class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6"
+                                                   style="font-size: 20px; text-decoration: none; color: black;">
+                                                    Roll Up Banners
+                                                </a>
+                                            </strong>
+                                        </div>
+
+                                        <div class="block2-txt-child2 flex-r p-t-3">
+                                            <a href="#"
+                                               class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                                <img class="icon-heart1 dis-block trans-04"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-01.png"
+                                                     alt="ICON"/>
+                                                <img class="icon-heart2 dis-block trans-04 ab-t-l"
+                                                     src="/mawa_website/static/src/images/icons/icon-heart-02.png"
+                                                     alt="ICON"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Load more -->
+                        <!--<div class="flex-c-m flex-w w-full p-t-45">
+                            <a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+                                Load More
+                            </a>
+                        </div>-->
+                    </div>
+                </section>
+
+                <script>
+                    $(document).ready(function () {
+
+                    var $topeContainer = $('.isotope-grid');
+                    var $filter = $('.filter-tope-group');
+                    var $isotopeItems = $('.isotope-item');
+
+
+                    $filter.on('click', 'button', function () {
+                    var filterValue = $(this).attr('data-filter');
+                    $isotopeItems.hide();
+                    $isotopeItems.filter(filterValue).show();
+                    });
+
+                    var isotopeButton = $('.filter-tope-group button');
+
+                    $(isotopeButton).each(function () {
+                    $(this).on('click', function () {
+                    isotopeButton.removeClass('how-active1');
+                    $(this).addClass('how-active1');
+                    });
+                    });
+                    });
+                </script>
+
+
+                <!--                    &lt;!&ndash; Back to top &ndash;&gt;-->
+                <!--                    <div class="btn-back-to-top" id="myBtn">-->
+                <!--                        <span class="symbol-btn-back-to-top">-->
+                <!--                            <i class="zmdi zmdi-chevron-up"></i>-->
+                <!--                        </span>-->
+                <!--                    </div>-->
+                <!--                ===============================================================================================-->
+                <!--                    <script src="/mawa_website/static/src/vendor/jquery/jquery-3.2.1.min.js"></script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/animsition/js/animsition.min.js"></script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/bootstrap/js/popper.js"></script>-->
+                <!--                    <script src="/mawa_website/static/src/vendor/bootstrap/js/bootstrap.min.js"></script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/select2/select2.min.js"></script>-->
+                <!--                    <script>-->
+                <!--                        $(".js-select2").each(function(){-->
+                <!--                        $(this).select2({-->
+                <!--                        minimumResultsForSearch: 20,-->
+                <!--                        dropdownParent: $(this).next('.dropDownSelect2')-->
+                <!--                        });-->
+                <!--                        })-->
+                <!--                    </script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/daterangepicker/moment.min.js"></script>-->
+                <!--                    <script src="/mawa_website/static/src/vendor/daterangepicker/daterangepicker.js"></script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/slick/slick.min.js"></script>-->
+                <!--                    <script src="/mawa_website/static/src/js/slick-custom.js"></script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/parallax100/parallax100.js"></script>-->
+                <!--                    <script>-->
+                <!--                        $('.parallax100').parallax100();-->
+                <!--                    </script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>-->
+                <!--                    <script>-->
+                <!--                        $('.gallery-lb').each(function() { // the containers for all your galleries-->
+                <!--                        $(this).magnificPopup({-->
+                <!--                        delegate: 'a', // the selector for gallery item-->
+                <!--                        type: 'image',-->
+                <!--                        gallery: {-->
+                <!--                        enabled:true-->
+                <!--                        },-->
+                <!--                        mainClass: 'mfp-fade'-->
+                <!--                        });-->
+                <!--                        });-->
+                <!--                    </script>-->
+                <!--                    &lt;!&ndash;===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/isotope/isotope.pkgd.min.js"></script>-->
+                <!--&lt;!&ndash;                    ===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/sweetalert/sweetalert.min.js"></script>-->
+                <!--                    <script>-->
+                <!--                        $('.js-addwish-b2').on('click', function(e){-->
+                <!--                        e.preventDefault();-->
+                <!--                        });-->
+
+                <!--                        $('.js-addwish-b2').each(function(){-->
+                <!--                        var nameProduct = $(this).parent().parent().find('.js-name-b2').html();-->
+                <!--                        $(this).on('click', function(){-->
+                <!--                        swal(nameProduct, "is added to wishlist !", "success");-->
+
+                <!--                        $(this).addClass('js-addedwish-b2');-->
+                <!--                        $(this).off('click');-->
+                <!--                        });-->
+                <!--                        });-->
+
+                <!--                        $('.js-addwish-detail').each(function(){-->
+                <!--                        var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();-->
+
+                <!--                        $(this).on('click', function(){-->
+                <!--                        swal(nameProduct, "is added to wishlist !", "success");-->
+
+                <!--                        $(this).addClass('js-addedwish-detail');-->
+                <!--                        $(this).off('click');-->
+                <!--                        });-->
+                <!--                        });-->
+
+                <!--                        /*-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;*/-->
+
+                <!--                        $('.js-addcart-detail').each(function(){-->
+                <!--                        var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();-->
+                <!--                        $(this).on('click', function(){-->
+                <!--                        swal(nameProduct, "is added to cart !", "success");-->
+                <!--                        });-->
+                <!--                        });-->
+
+                <!--                    </script>-->
+                <!--&lt;!&ndash;                    ===============================================================================================&ndash;&gt;-->
+                <!--                    <script src="/mawa_website/static/src/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>-->
+                <!--                    <script>-->
+                <!--                        $('.js-pscroll').each(function(){-->
+                <!--                        $(this).css('position','relative');-->
+                <!--                        $(this).css('overflow','hidden');-->
+                <!--                        var ps = new PerfectScrollbar(this, {-->
+                <!--                        wheelSpeed: 1,-->
+                <!--                        scrollingThreshold: 1000,-->
+                <!--                        wheelPropagation: false,-->
+                <!--                        });-->
+
+                <!--                        $(window).on('resize', function(){-->
+                <!--                        ps.update();-->
+                <!--                        })-->
+                <!--                        });-->
+                <!--                    </script>-->
+                <!--===============================================================================================-->
+                <!--                                    <script src="/mawa_website/static/src/js/main.js"></script>-->
+            </t>
+        </xpath>
+    </template>
+</odoo>
